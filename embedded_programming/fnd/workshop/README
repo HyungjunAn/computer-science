@@ -1,0 +1,13 @@
+[사용 설명서]
+
+1. 빌드 방법
+> $ make
+
+2. 실행 파일 구성
+- server: 서버
+- client: 클라이언트
+
+3. 주의 사항
+- 서버 먼저 실행 바랍니다.
+- 'softServo.o'의 경로가 다음과 다를 경우 Makefile 수정이 필요합니다.
+	(/root/wiringPi/wiringPi/softServo.o)
