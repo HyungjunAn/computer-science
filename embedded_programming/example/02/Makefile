@@ -1,9 +1,14 @@
-CFLAGS = -lwiringPi
+SSD_PATH = /root/lcd_test
+SSD_O = $(SSD_PATH)/ssd1306_i2c.o
+CFLAGS = -lwiringPi -I$(SSD_PATH)
 
 project: main.out
 
-main.out: %.o main.o ssd1306_i2c.o ssd1306_i2c.h
-	gcc main.o ssd1306_i2c.o -o $@ $(CFLAGS)
+main.out: main.o $(SSD_O)
+	gcc $^ -o $@ $(CFLAGS)
 
 %.o: %.c
-	gcc -c -o $@ $<
+	gcc -c -o $@ $< $(CFLAGS)
+
+clean:
+	rm *.o *.out

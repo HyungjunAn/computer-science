@@ -53,7 +53,6 @@ int main() {
     int tm_yday;   /* Day in the year (0-365, 1 Jan = 0) */
     int tm_isdst;  /* Daylight saving time */
 #endif
-	timeinfo->tm_hour
 
 	clearDisplay(fd);
 	getchar();
