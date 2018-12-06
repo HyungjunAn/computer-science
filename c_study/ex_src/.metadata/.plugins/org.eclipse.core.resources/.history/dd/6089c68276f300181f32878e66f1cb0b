@@ -1,0 +1,15 @@
+#include "CUnit/CUnit.h"
+#include "CUnit/Basic.h"
+#include "CUnit/Automated.h"
+#include "CUnit/Console.h"
+
+#include "score.h"
+
+#include <stdio.h>
+
+int main(void)
+{
+	CU_pSuite pSuite = NULL;
+	CU_initialize_reg
+
+}

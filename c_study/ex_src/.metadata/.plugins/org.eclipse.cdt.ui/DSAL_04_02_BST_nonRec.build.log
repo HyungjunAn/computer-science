@@ -1,0 +1,7 @@
+15:08:52 **** Incremental Build of configuration Debug for project DSAL_04_02_BST_nonRec ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o BSTree_testMain.o "..\\BSTree_testMain.c" 
+gcc -o DSAL_04_02_BST_nonRec BSTree_testMain.o binaryTree.o 
+
+15:08:53 Build Finished. 0 errors, 0 warnings. (took 356ms)
+

@@ -1,0 +1,32 @@
+09:31:08 **** Incremental Build of configuration Debug for project DSAL_04_02_BST ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o binaryTree.o "..\\binaryTree.c" 
+..\binaryTree.c: In function 'deleteNode':
+..\binaryTree.c:194:10: warning: unused variable 'child' [-Wunused-variable]
+  node_t *child;  /* 삭제 노드의 자식 노드 */
+          ^
+..\binaryTree.c:193:10: warning: unused variable 'subParent' [-Wunused-variable]
+  node_t *subParent; /* 대체 노드의 부모 노드 */
+          ^
+..\binaryTree.c:192:10: warning: unused variable 'sub' [-Wunused-variable]
+  node_t *sub;  /* 대체 노드 */
+          ^
+..\binaryTree.c:191:10: warning: unused variable 'parent' [-Wunused-variable]
+  node_t *parent;  /* 삭제 대상 노드의 부모 노드 */
+          ^
+..\binaryTree.c: At top level:
+..\binaryTree.c:157:13: warning: '_deleteNode' defined but not used [-Wunused-function]
+ static bool _deleteNode(node_t *pNode, int key) {
+             ^
+..\binaryTree.c: In function '_deleteNode':
+..\binaryTree.c:187:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\binaryTree.c: In function 'deleteNode':
+..\binaryTree.c:198:6: warning: 'target' is used uninitialized in this function [-Wuninitialized]
+  free(target);
+      ^
+gcc -o DSAL_04_02_BST BSTree_testMain.o binaryTree.o 
+
+09:31:08 Build Finished. 0 errors, 7 warnings. (took 357ms)
+

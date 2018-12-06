@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DSAL_05_02_graph/Graph.c&apos; to &apos;graph.c&apos;" description="Rename resource &apos;Graph.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Graph.c" name="graph.c" stamp="1540873491130" updateReferences="true"/>
+</session>

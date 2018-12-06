@@ -1,0 +1,9 @@
+10:17:28 **** Rebuild of configuration Debug for project HW_DSAL_01_list ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o word.o "..\\word.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o 284807_hyungjun.an_shiritoriGame_testMain.o "..\\284807_hyungjun.an_shiritoriGame_testMain.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o doublyLinkedlist.o "..\\doublyLinkedlist.c" 
+gcc -o HW_DSAL_01_list 284807_hyungjun.an_shiritoriGame_testMain.o doublyLinkedlist.o word.o 
+
+10:17:29 Build Finished. 0 errors, 0 warnings. (took 646ms)
+

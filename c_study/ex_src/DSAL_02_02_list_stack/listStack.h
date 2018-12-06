@@ -1,0 +1,27 @@
+#ifndef LISTSTACK_H_
+#define LISTSTACK_H_
+
+typedef enum _BOOL{ FALSE, TRUE } BOOL;
+
+typedef struct _stacknode Snode;
+
+struct _stacknode
+{
+	int data;		/* int 데이터 영역 */
+	Snode *next;	/* 다음 노드를 가리키는 포인터 영역 */
+};
+
+typedef struct _stack	/* stack 관리 구조체 */
+{
+	Snode *head;	/* head pointer (head node 가리킴) */
+	Snode *tail;	/* tail pointer (tail node 가리킴) */
+}Stack;
+
+BOOL createStack(Stack *sp);		/* 링크드리스트로 관리되는 스택 생성 함수 */
+BOOL isStackEmpty(const Stack *sp);		/* 스택이 완전히 비어있는가 검사 */
+BOOL push(Stack *sp, int pushData);	/* 스택에 데이터 저장하는 함수 */
+BOOL pop(Stack *sp, int *popData);	/* 스택에서 데이터를 꺼내는 함수 */
+void printStack(const Stack*sp);		/* 스택 내의 모든 데이터를 출력하는 함수 */
+void destroyStack(Stack *sp);			/* 스택 메모리 해제 함수 */
+
+#endif /* LISTSTACK_H_  */

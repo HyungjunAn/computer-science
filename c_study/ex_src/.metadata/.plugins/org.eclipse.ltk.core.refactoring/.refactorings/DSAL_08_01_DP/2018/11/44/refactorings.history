@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DSAL_08_01_DP/nQueen.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;nQueen.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="nQueen.c" name="main.c" stamp="1541114208741" updateReferences="true"/>
+</session>

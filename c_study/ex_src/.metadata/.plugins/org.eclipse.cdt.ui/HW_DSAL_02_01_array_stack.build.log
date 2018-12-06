@@ -1,0 +1,15 @@
+10:17:29 **** Rebuild of configuration Debug for project HW_DSAL_02_01_array_stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o arrayStack.o "..\\arrayStack.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'menu':
+..\main.c:104:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' [-Wformat=]
+   printf("%d. %s\n", i + 1, menuList[i]);
+   ^
+..\main.c:110:3: warning: format '%u' expects argument of type 'unsigned int *', but argument 2 has type 'size_t *' [-Wformat=]
+   res = scanf("%u", &menuNum);
+   ^
+gcc -o HW_DSAL_02_01_array_stack.exe arrayStack.o main.o 
+
+10:17:29 Build Finished. 0 errors, 2 warnings. (took 530ms)
+

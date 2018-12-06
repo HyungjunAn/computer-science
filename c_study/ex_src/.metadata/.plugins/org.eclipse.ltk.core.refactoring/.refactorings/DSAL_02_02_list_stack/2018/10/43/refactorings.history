@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DSAL_02_02_list_stack/arrayStack.c&apos; to &apos;listStack.c&apos;" description="Rename resource &apos;arrayStack.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="arrayStack.c" name="listStack.c" stamp="1540431412485" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DSAL_02_02_list_stack/stack_testMain.cpp&apos; to &apos;stack_testMain.c&apos;" description="Rename resource &apos;stack_testMain.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="stack_testMain.cpp" name="stack_testMain.c" stamp="1540433640081" updateReferences="true"/>
+</session>

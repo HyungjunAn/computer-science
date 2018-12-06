@@ -1,0 +1,7 @@
+11:18:35 **** Incremental Build of configuration Debug for project DSAL_05_02_graph ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o testMain.o "..\\testMain.c" 
+gcc -o DSAL_05_02_graph graph.o queue.o stack.o testMain.o 
+
+11:18:36 Build Finished. 0 errors, 0 warnings. (took 300ms)
+

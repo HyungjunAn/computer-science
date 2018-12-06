@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;_HW_DSAL_02_queue/284807_hyungjun.an_shiritoriGame_testMain.c&apos; to &apos;284807_hyungjun.an_Josephus.c&apos;" description="Rename resource &apos;284807_hyungjun.an_shiritoriGame_testMain.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="284807_hyungjun.an_shiritoriGame_testMain.c" name="284807_hyungjun.an_Josephus.c" stamp="1540449729647" updateReferences="true"/>
+</session>

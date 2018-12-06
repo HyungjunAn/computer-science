@@ -1,0 +1,12 @@
+16:17:52 **** Rebuild of configuration Debug for project DSAL_04_01_BST_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o BSTree_testMain.o "..\\BSTree_testMain.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o binaryTree.o "..\\binaryTree.c" 
+..\binaryTree.c: In function 'deleteNode':
+..\binaryTree.c:150:10: warning: unused variable 'child' [-Wunused-variable]
+  node_t *child;  /* 삭제 노드의 자식 노드 */
+          ^
+gcc -o DSAL_04_01_BST_array BSTree_testMain.o binaryTree.o 
+
+16:17:52 Build Finished. 0 errors, 1 warnings. (took 428ms)
+

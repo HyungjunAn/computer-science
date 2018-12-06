@@ -1,0 +1,10 @@
+10:17:29 **** Rebuild of configuration Debug for project HW_DSAL_02_02_list_stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o arrayStack.o "..\\arrayStack.c" 
+gcc -o HW_DSAL_02_02_list_stack.exe arrayStack.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): In function `main':
+/home/ruben/mingw-w64/src/mingw-w64/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+
+10:17:30 Build Failed. 1 errors, 0 warnings. (took 411ms)
+
