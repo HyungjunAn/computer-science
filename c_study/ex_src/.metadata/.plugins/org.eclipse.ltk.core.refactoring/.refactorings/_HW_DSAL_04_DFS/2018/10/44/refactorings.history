@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;_HW_DSAL_04_DFS/284807_hyungjun.an_work.c&apos; to &apos;284807_hyungjun.an_graph_dfs.c&apos;" description="Rename resource &apos;284807_hyungjun.an_work.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="284807_hyungjun.an_work.c" name="284807_hyungjun.an_graph_dfs.c" stamp="1540882034576" updateReferences="true"/>
-</session>

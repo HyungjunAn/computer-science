@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;_HW_DSAL_06_node_distance/284807_hyungjun.an_island_count_bfs_file.c&apos; to &apos;284807_hyungjun.an_distance.c&apos;" description="Rename resource &apos;284807_hyungjun.an_island_count_bfs_file.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="284807_hyungjun.an_island_count_bfs_file.c" name="284807_hyungjun.an_distance.c" stamp="1541054765556" updateReferences="true"/>
-</session>

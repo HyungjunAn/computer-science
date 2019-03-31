@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;_HW_DSAL_03_recursion/284807_hyungjun.an_Josephus.c&apos; to &apos;284807_hyungjun.an_work.c&apos;" description="Rename resource &apos;284807_hyungjun.an_Josephus.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="284807_hyungjun.an_Josephus.c" name="284807_hyungjun.an_work.c" stamp="1540535802466" updateReferences="true"/>
-</session>

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Move &apos;dsal02_sort.c&apos; to &apos;DSAL_03_02_sorting&apos;" description="Move &apos;dsal02_sort.c&apos; to &apos;DSAL_03_02_sorting&apos;" destination="/DSAL_03_02_sorting" element1="/Test/source_files/dsal02_sort.c" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1540510479267" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DSAL_03_02_sorting/dsal02_sort.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;dsal02_sort.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="dsal02_sort.c" name="main.c" stamp="1540510539597" updateReferences="true"/>
-</session>

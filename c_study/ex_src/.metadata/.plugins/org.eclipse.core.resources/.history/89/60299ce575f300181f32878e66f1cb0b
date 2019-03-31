@@ -1,6 +1,0 @@
-#include "score.h"
-
-char score(int valu)
-{
-
-}

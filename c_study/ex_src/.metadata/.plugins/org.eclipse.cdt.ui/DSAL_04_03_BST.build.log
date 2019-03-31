@@ -1,8 +1,0 @@
-10:23:03 **** Rebuild of configuration Debug for project DSAL_04_03_BST ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o binaryTree.o "..\\binaryTree.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o BSTree_testMain.o "..\\BSTree_testMain.c" 
-gcc -o DSAL_04_03_BST BSTree_testMain.o binaryTree.o 
-
-10:23:03 Build Finished. 0 errors, 0 warnings. (took 443ms)
-

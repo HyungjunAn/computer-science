@@ -1,8 +1,0 @@
-08:09:56 **** Rebuild of configuration Debug for project _HW_DSAL_05_FLOOD_FILL ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o 284807_hyungjun.an_island_count_bfs_file.o "..\\284807_hyungjun.an_island_count_bfs_file.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o circular_queue.o "..\\circular_queue.c" 
-gcc -o _HW_DSAL_05_FLOOD_FILL 284807_hyungjun.an_island_count_bfs_file.o circular_queue.o 
-
-08:09:56 Build Finished. 0 errors, 0 warnings. (took 453ms)
-

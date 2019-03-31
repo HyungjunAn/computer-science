@@ -1,6 +1,0 @@
-10:13:06 **** Incremental Build of configuration Debug for project HW_DSAL_02_stack ****
-Info: Internal Builder is used for build
-gcc -o HW_DSAL_02_stack.exe arrayStack.o main.o 
-
-10:13:06 Build Finished. 0 errors, 0 warnings. (took 249ms)
-

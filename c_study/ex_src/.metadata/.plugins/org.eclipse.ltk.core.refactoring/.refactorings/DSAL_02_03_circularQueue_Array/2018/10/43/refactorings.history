@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;DSAL_02_03_queue/queue_testMain.cpp&apos; to &apos;queue_testMain.c&apos;" description="Rename resource &apos;queue_testMain.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="queue_testMain.cpp" name="queue_testMain.c" stamp="1540441410876" updateReferences="true"/>
-</session>

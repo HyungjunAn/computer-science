@@ -1,7 +1,0 @@
-16:42:33 **** Incremental Build of configuration Debug for project _HW_DSAL_04_DFS ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o 284807_hyungjun.an_graph_dfs.o "..\\284807_hyungjun.an_graph_dfs.c" 
-gcc -o _HW_DSAL_04_DFS 284807_hyungjun.an_graph_dfs.o 
-
-16:42:34 Build Finished. 0 errors, 0 warnings. (took 328ms)
-
